@@ -1,0 +1,108 @@
+/* ----------
+    RESET
+---------- */
+
+*   {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------
+    GENERAL
+---------- */
+
+body    {
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+}
+
+/* ----------
+    STYLE OF THE PAGE
+---------- */
+
+.container  {
+    width: 850px;
+    height: 610px;
+    border-radius: 2%;
+    background-color: rgba(0, 0, 0, 0.55);
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header  {  
+    padding-top: 75px;  
+    text-align: center;  
+}
+
+.logo   {
+    width: 170px;
+}
+
+.titolo  {
+    color: rgba(0, 221, 0, 255);    
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+}
+
+.nav {
+    width: 710px;
+    height: 30px;
+    background-color: rgba(0, 221, 0, 255);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+button  {
+    font-size: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+main    {
+    width: 710px;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;    
+}
+
+ .monopattini    {
+    color: white;
+    font-size: 12px;   
+} 
+
+.checkbox   {
+    display: inline;
+    width: 10px;
+    height: 10px;  
+}
+
+h3  {
+    color: white;
+    display: inline;
+    font-size: 16px;
+}
+
+.gino22{
+    width: 250px;
+    height: 20px;
+    background-color: rgba(245, 180, 83, 255);
+    border-radius: 3px;
+}
+
+.mike24{
+    width: 450px;
+    height: 20px;
+    background-color: rgba(30, 195, 30, 255);
+    border-radius: 3px;
+}
+
+.fede154{
+    width: 150px;
+    height: 20px;
+    background-color: rgba(190, 65, 65, 255);
+    border-radius: 3px;
+}
